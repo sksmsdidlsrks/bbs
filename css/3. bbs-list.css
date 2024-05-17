@@ -1,0 +1,243 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
+}
+header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  padding: 8px;
+  box-sizing: border-box;
+
+}
+#toplogo-box {
+  width: 450px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+#toplogo {
+  width: 97px;
+  height: 72px;
+  border-radius: 100px;
+  background-color: #ffffff;
+
+}
+#menu-box {
+  display: flex;
+  gap: 16px;
+
+}
+.menu {
+  font-weight: bold;
+  color: #ffffff;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 132px 0 0;
+  gap: 24px;
+}
+#bbs {
+  width: 1000px;
+  height: 840px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+#bbs-box1{
+  height: 87px;
+  display: flex;
+  align-items: center;
+}
+.bbs-box2{
+  width: 100%;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+}
+#number{
+    width: 58px;
+    height: 100%;
+    background-color: #494949;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#name{
+    width: 600px;
+    height: 100%;
+    background-color: #494949;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#writer{
+    width: 71px;
+    height: 100%;
+    background-color: #494949;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hits{
+    width: 71px;
+    height: 100%;
+    background-color: #494949;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#days{
+    width: 121px;
+    height: 100%;
+    background-color: #494949;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.number{
+    width: 58px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #494949;
+}
+.name{
+    width: 600px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #494949;
+}
+.writer{
+    width: 71px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #494949;
+}
+.hits{
+    width: 71px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #494949;
+}
+.days{
+    width: 121px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #494949;
+}
+#bbs-text1{
+  font-size: 32px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.bbs-text2{
+  font-size: 14px;
+  color: #ffffff;
+}
+#bbs-box3{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 16px 31.5px 16px 31.5px;
+    gap: 221px;
+}
+#box3-button{
+    width: 60px;
+    height: 30px;
+    background-color: #494949;
+    border: none;
+    padding: 0;
+}
+#box3-text{
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+}
+#box3-search{
+    width: 384px;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    
+}
+#box3-input{
+    width: 376px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    border-bottom: 1px solid #5a5a5a;
+    outline: none;
+    background-color: transparent;
+    color: #ffffff;
+}
+#box3-input:focus{
+  border-bottom: 1px solid #fff;
+}
+#box3-reading{
+    width: 32px;
+    height: 32px;
+    background-color: #ffffff;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box3-img{
+    width: 22px;
+    height: 22px;
+}
+#bbs-box4{
+    width: 100%;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+.box4-box1{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.box4-text1{
+    font-weight: bold;
+    color: #ffffff;
+}
+.box4-box2{
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box4-text2{
+    font-weight: bold;
+
+}
